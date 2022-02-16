@@ -28,10 +28,10 @@ export default function Appstart() {
 
       </HStack>
 
-      <Button size="sm">
+      <Button size="lg">
         Login
       </Button>
-      <Button size="sm" variant="subtle">
+      <Button size="lg" variant="outline">
         Signup
       </Button>
     </VStack>
