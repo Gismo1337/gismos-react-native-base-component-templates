@@ -14,7 +14,16 @@ export default function App() {
     <NativeBaseProvider>
 
       <VStack space="5">
+        <Darkmode />
 
+
+        <Divider my="2" />
+
+        <Appstart />
+
+        <Divider my="2" />
+
+        <Userprofile />
       </VStack>
 
 

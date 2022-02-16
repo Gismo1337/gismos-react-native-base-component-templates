@@ -21,6 +21,6 @@ expo init my-app --template expo-template-native-base
 [Expo Snack - DEMO](https://snack.expo.dev/@g1sm0/react-native-appstart-screen-component)
 
 ## Userprofile
-Need 3rdParty Package: yarn add react-native-tab-view
+Need 3rdParty Package: yarn add react-native-tab-view<br />
 ![Appstart Screen Preview](https://github.com/Gismo1337/gismos-react-native-base-component-templates/blob/main/assets/UserprofilePreview.png?raw=true)<br />
 [Expo Snack - DEMO](https://snack.expo.dev/@g1sm0/react-native-user-profile-copmponent)
