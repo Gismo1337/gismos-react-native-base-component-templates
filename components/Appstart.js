@@ -12,28 +12,30 @@ import {
 // Appstart Component
 export default function Appstart() {
   return (
+
     <VStack space="5">
       <Center>
         <Image size={150} resizeMode={"contain"} borderRadius={300} source={{
           uri: "https://wallpaperaccess.com/full/317501.jpg"
-        }} alt="Alternate Text" /></Center>
+        }} alt="Alternate Text" />
 
 
-      <HStack space="3" alignItems="center">
+        <HStack space="3" alignItems="center">
 
-        <Heading>Component</Heading>
+          <Heading>Component</Heading>
 
 
-        <Text fontSize="md">Base</Text>
+          <Text fontSize="md">Base</Text>
 
-      </HStack>
+        </HStack>
 
-      <Button size="lg">
-        Login
-      </Button>
-      <Button size="lg" variant="outline">
-        Signup
-      </Button>
+        <Button size="lg">
+          Login
+        </Button>
+        <Button size="lg" variant="outline">
+          Signup
+        </Button>
+      </Center>
     </VStack>
   );
 }
